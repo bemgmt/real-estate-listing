@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luxury Estate in Pleasantville, CA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .listing-header {
+      text-align: center;
+      padding: 30px 0;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .gallery img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      flex: 1 1 280px;
+    }
+    .details, .realtor, .contact-form {
+      background: #fff;
+      padding: 20px;
+      margin: 30px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="listing-header">
+      <h1>$100 Million Luxury Estate</h1>
+      <p>Pleasantville, California — 3 Beds | 3 Baths | 3 Acres</p>
+    </div>
+
+    <div class="gallery">
+      <img src="img/home1.jpg" alt="Luxury Estate Front View">
+      <img src="img/home2.jpg" alt="Interior View">
+      <img src="img/home3.jpg" alt="Backyard and Pool">
+    </div>
+
+    <div class="details">
+      <h2>Property Overview</h2>
+      <p>Discover a one-of-a-kind estate located in the heart of Pleasantville. This sprawling 3-acre property features stunning modern architecture, exquisite interiors, and lush landscaping. Enjoy ultimate privacy, state-of-the-art amenities, and breathtaking views. Perfect for those seeking luxury and tranquility just minutes from city life.</p>
+    </div>
+
+    <div class="realtor">
+      <h2>Your Realtor</h2>
+      <p><strong>John Doe</strong></p>
+      <p>Call/Text: <a href="tel:1234567890">(123) 456-7890</a></p>
+    </div>
+
+    <div class="contact-form">
+      <h2>Schedule a Private Tour</h2>
+      <form action="https://script.google.com/macros/s/WEB_APP_URL_HERE/exec" method="POST">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+      </div>
+      <button type="submit">Request a Consultation</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
